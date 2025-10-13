@@ -47,6 +47,11 @@
     #a86b00 100%
   );
   --gold: #eba103;
+  --size: 250px; 
+    --dur: 6s;            
+    --gold-1: #fff9e6;
+    --gold-2: #ffd54d;
+    --gold-3: #ffb300;
   --glass-blur: 18px;
   --nebula-speed: 8s;
 }
@@ -350,6 +355,7 @@ body{
   overflow: visible;
   background: transparent;
   z-index: 2;
+  background-size: cover;
 }
 
 .hero::before,
@@ -432,7 +438,7 @@ body{
     }
   
 /* Star core + Starburst (with golden star shape) */
-    .starburst {
+    /*.starburst {
       position: relative;
       top: 60%; left: 50%;
       width: 170px; height: 170px;
@@ -453,7 +459,7 @@ body{
               drop-shadow(0 0 35px rgba(255, 217, 0, 0.466));
       animation: starburst-expand 6s ease-out infinite;
       mix-blend-mode: screen;
-    }
+    }*/
 
     /* Expanding shockwave halo */
     .halo {
@@ -547,6 +553,75 @@ body{
       0% { transform: translate(-50%, -50%) scale(1) rotate(0deg); }
       100% { transform: translate(-50%, -50%) scale(1) rotate(360deg); }
     }
+
+  /* svg scales responsively */
+  .supernova-svg{ width: var(--size); height: var(--size); overflow: visible; display:block; }
+
+  /* make SVG group transforms center on the viewBox */
+  .starGroup,
+  .haloGroup,
+  .glowGroup,
+  .coreGroup,
+  .wings { transform-box: fill-box; transform-origin: 50% 50% }
+
+  /* STAR (diamond) animation: pop then fade out */
+  .starGroup {
+    animation: starAnim var(--dur) cubic-bezier(.22,.9,.3,1) infinite;
+  }
+  @keyframes starAnim{
+    0%   { transform: scale(.14); opacity: 0; }
+    8%   { transform: scale(.98); opacity: 1; }
+    28%  { transform: scale(1.12); opacity: 0.95; }
+    52%  { transform: scale(1.28); opacity: 0.45; }
+    100% { transform: scale(1.6); opacity: 0; }
+  }
+
+  /* inner core flash */
+  .coreGroup { animation: coreFlash calc(var(--dur) * 1) cubic-bezier(.22,.9,.3,1) infinite; }
+  @keyframes coreFlash{
+    0% { opacity:0; transform: scale(.1); }
+    6% { opacity:1; transform: scale(1.2); }
+    14% { opacity:.9; transform: scale(.9); }
+    30% { opacity:.45; transform: scale(.65); }
+    100% { opacity:0; transform: scale(.5); }
+  }
+
+  /* halo (oblong) expands and fades in/out */
+  .haloGroup {
+    animation: haloAnim var(--dur) cubic-bezier(.2,.9,.25,1) infinite;
+  }
+  @keyframes haloAnim{
+    0%   { transform: scale(.14); opacity: 0; }
+    20%  { transform: scale(.8); opacity: .92; }
+    42%  { transform: scale(1.08); opacity: .55; }
+    100% { transform: scale(1.9); opacity: 0; }
+  }
+
+  /* wings (left/right subtle lines) */
+ /* .wings .wing {
+    filter: drop-shadow(0 0 12px rgba(255,200,70,0.6));
+    transform-origin: center;
+    animation: wingShow var(--dur) cubic-bezier(.22,.9,.3,1) infinite;
+  }
+  @keyframes wingShow{
+    0%   { opacity:0; transform: scaleX(.2) translateX(0); }
+    18%  { opacity:1; transform: scaleX(1) translateX(0); }
+    45%  { opacity:.6; transform: scaleX(1.12) translateX(0); }
+    100% { opacity:0; transform: scaleX(1.3) translateX(0); }
+  } */
+
+  /* rotating colorful nebula glow */
+  .glowGroup {
+    mix-blend-mode: screen;
+    animation: glowMove calc(var(--dur) * 1.6) linear infinite, glowScale var(--dur) ease-out infinite;
+  }
+  @keyframes glowMove{ 0%{ transform: rotate(0deg) } 100%{ transform: rotate(360deg)} }
+  @keyframes glowScale{
+    0% { transform: rotate(0deg) scale(.3); opacity:0 }
+    28% { transform: rotate(80deg) scale(.95); opacity:.6 }
+    62% { transform: rotate(220deg) scale(1.25); opacity:.35 }
+    100% { transform: rotate(360deg) scale(1.8); opacity:0 }
+  }
 
 /* Hero inner layout */
 .hero-inner{
@@ -694,18 +769,30 @@ box-shadow:
 
 /* ========== Responsive / Media queries ========== */
 @media (max-width:1000px){
-  .hero-inner{ grid-template-columns: 1fr; gap:18px; padding: 20px}
+  .hero-inner{ grid-template-columns: 1fr; gap:18px; padding: 20px }
   .hero-left{ width:100% }
-  .nav-links{ display:none } /* hide desktop nav on small screens */
+  .nav-links{ display:none } 
   .nav-toggle-label{ display:flex }
-  .mobile-nav{ display:none } /* hidden until checkbox toggled */
+  .mobile-nav{ display:none } 
   .nav-toggle:checked ~ .mobile-nav{ display:flex; flex-direction:column }
   .carousel-wrap{ overflow-x:auto; padding-bottom:20px }
   .ux-grid{ grid-template-columns: repeat(2, 1fr) }
   .contact-form{ grid-template-columns: 1fr; }
 }
 
-/* Mobile small */
+/* Tablet */
+@media only screen and (max-width: 768px) {
+.hero-inner{ grid-template-columns: 1fr; gap:18px; padding: 20px}
+  .hero-left{ width: 40% }
+  .hero {width: 50% }
+  .nav-toggle-label{ display:flex }
+  .nav-toggle:checked ~ .mobile-nav{ display:flex; flex-direction:column }
+  .carousel-wrap{ overflow-x:auto; padding-bottom:20px }
+  .ux-grid{ grid-template-columns: repeat(2, 1fr) }
+  .contact-form{ grid-template-columns: 1fr; }
+}
+
+/* Mobile */
 @media (max-width:600px){
   .nav-wordmark {transform: translateX(-0.5%) }
   .nav-by{width: 100px }
@@ -718,6 +805,7 @@ box-shadow:
   .hero-cta { transform: translateY(-400%) translateX(1.5%) } 
   .hero-center{ width: 80%; display: auto}
   .starburst, .halo, .glow { display: none }
+  .starGroup, .haloGroup, .glowGroup, .coreGroup, .wings {display: none}
   .hero .btn { transform: translateY(50%) }
   .carousel-wrap{ gap:12px }
   .ux-grid{ grid-template-columns: 1fr }
