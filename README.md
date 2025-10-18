@@ -39,7 +39,7 @@ Like the starburst behind the name, my career is just beginning — but I’m al
 
 ---
 
-### 🛠️ Skills / Stack
+### ✦ Skills / Stack
 
 **Languages:** HTML ⟡ CSS  
 **Design Tools:** Figma ⟡ Adobe XD ⟡ InDesign ⟡ Illustrator ⟡ Dreamweaver ⟡ Photoshop ⟡ Canva ⟡ Framer ⟡ WordPress ⟡ Wix  
@@ -47,7 +47,7 @@ Like the starburst behind the name, my career is just beginning — but I’m al
 
 ---
 
-### 🌠 Projects / Highlights
+### ✦ Projects / Highlights
 
 - ✦ [**TaaraNova Portfolio**](https://taaranovaharshi.github.io/TaaraNovaHarshi/) — A cosmic-themed UX/UI + web design portfolio showcasing interactive design, branding, & front-end development.  
 - ✦ [**TaaraNova Logo System**](https://github.com/TaaraNovaHarshi/TaaraNova-Logo) — Custom SVG monogram & logotype set with gold gradients & scalable vector geometry for consistent branding.  
@@ -55,21 +55,21 @@ Like the starburst behind the name, my career is just beginning — but I’m al
 
 ---
 
-### 🚀 Currently Exploring
+### ✦ Currently Exploring
 
 - UI motion design systems ⟡ CSS art & shader-based visual effects ⟡ accessibility-centered design strategies.  
 - Expanding skills in React & modern JS for immersive front-end experiences.  
 
-### 🌌 Next Trajectory
+### ✦ Next Trajectory
 
 - Developing a cosmic-inspired component library for designers & developers that merges clarity, interactivity, & artistry.  
 
 ---
 
-### 📡 Contact & Availability
+### ✦ Contact & Availability
 
-📧 **Portfolio:** [taaranovaharshi.github.io/TaaraNovaHarshi](https://taaranovaharshi.github.io/TaaraNovaHarshi)  
-💼 **LinkedIn:** [linkedin.com/in/harshi-v](https://www.linkedin.com/in/harshi-v)  
+✦ **Portfolio:** [taaranovaharshi.github.io/TaaraNovaHarshi](https://taaranovaharshi.github.io/TaaraNovaHarshi)  
+✦ **LinkedIn:** [linkedin.com/in/harshi-v](https://www.linkedin.com/in/harshi-v)  
 
 ---
 
@@ -88,7 +88,7 @@ Like the starburst behind the name, my career is just beginning — but I’m al
 
 ---
 
-<!-- ✦ Right-side ASCII Art for Cosmic Aesthetic ✦ -->
+<!-- Right-side ASCII Art for Cosmic Aesthetic -->
 <p align="right" style="color:#5b5b7a; font-family: monospace; font-size: 11px;">
         .      *     .       ✦<br>
     *        .    *        .     *<br>
