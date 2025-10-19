@@ -129,18 +129,7 @@ Like the starburst behind the name, my career is just beginning — but I’m al
 ✦ [**Portfolio**](https://taaranovaharshi.github.io/TaaraNovaHarshi)  
 ✦ [**LinkedIn**](https://www.linkedin.com/in/harshi-v)  
 
-<p style="display: flex; align-items: center; gap: 8px;">
-  <span style="color: #ffd87a; font-weight: 600;">Availability:</span>
-  <span style="display: inline-block; width: 12px; height: 12px; background-color: #4caf50; border-radius: 50%; box-shadow: 0 0 10px #4caf50; animation: glow 1.8s infinite alternate;"></span>
-  <span style="color: #fff;">Open to work & relocation</span>
-</p>
-
-<style>
-@keyframes glow {
-  from { box-shadow: 0 0 4px #4caf50; opacity: 0.8; }
-  to { box-shadow: 0 0 14px #4caf50; opacity: 1; }
-}
-</style>
+Availability: Open to work & relocation 🟢
 
 ---
 
