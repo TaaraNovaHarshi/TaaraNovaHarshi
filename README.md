@@ -64,7 +64,7 @@ A curated selection of projects focused on clarity, usability, & aesthetic motio
 
 - ✦ **Email:** okvuskamuri@gmail.com 
 - ✦ [**LinkedIn**](https://www.linkedin.com/in/harshi-v) (@harshi-v)
-- ✦ [**Portfolio**](https://taaranovaharshi.github.io/TaaraNovaHarshi) (or TaaraNovaHarshi.com)
+- ✦ [**Portfolio**](https://taaranovaharshi.com/)
 
 **Availability: Open to freelance & full-time roles in web/UX/UI/product design & front-end development + relocation (U.S. - in-person or remote/Global - remote only).** ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢨⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
