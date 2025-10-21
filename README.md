@@ -21,10 +21,19 @@ The name plays on *terra nova* (“new world”) & *supernova*, but with **taara
 
 ### ✦ Skills / Stack
 
-**Languages:** HTML ✦ CSS  
-**Frameworks:** Tailwind CSS
-**Design Tools:** Figma ✦ Adobe XD ⟡ Adobe InDesign ✦ Adobe Illustrator ✦ Adobe Dreamweaver ✦ Adobe Photoshop ✦ Canva ✦ Framer ✦ WordPress ✦ Wix  
-**Other Tools:** Git ✦ GitHub ✦ VS Code ✦ PyCharm
+- **Languages:** HTML5 ✦ CSS3  
+- **Frameworks:** Tailwind CSS
+- **Design Tools:** Figma ✦ Adobe XD ⟡ Adobe InDesign ✦ Adobe Illustrator ✦ Adobe Dreamweaver ✦ Adobe Photoshop ✦ Canva ✦ Capcut ✦ Vimeo
+- **Website Design Tools:** Wix ✦ WordPress ✦ Webflow ✦ Framer ✦ Squarespace 
+- **Other Tools:** Git ✦ GitHub ✦ VS Code ✦ Chrome Dev Tools ✦ PyCharm ✦ Google Workspace ✦ Microsoft Office Suite
+
+∘₊✦─────────────────────────────────────────────────────────────────────────────✦₊∘
+
+### ✦ Certifications 
+
+- ✦ Springboard UX Design Curriculum (2025)
+- ✦ FutureLearn Digital Skills: User Experience (2025)
+- ✦ FreeCodeCamp Responsive Web Design – In Progress (2025)
 
 ∘₊✦─────────────────────────────────────────────────────────────────────────────✦₊∘
 
@@ -55,10 +64,9 @@ A curated selection of projects focused on clarity, usability, & aesthetic motio
 
 - ✦ **Email:** okvuskamuri@gmail.com 
 - ✦ [**LinkedIn**](https://www.linkedin.com/in/harshi-v) (@harshi-v)
-- ✦ [**Portfolio**](https://taaranovaharshi.github.io/TaaraNovaHarshi)  
+- ✦ [**Portfolio**](https://taaranovaharshi.github.io/TaaraNovaHarshi) (or TaaraNovaHarshi.com)
 
-**Availability: Open to freelance & full-time roles in web/UX/UI/product design & front-end development + relocation (U.S. - in-person or remote/Global - remote only).**
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+**Availability: Open to freelance & full-time roles in web/UX/UI/product design & front-end development + relocation (U.S. - in-person or remote/Global - remote only).** ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢨⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -82,6 +90,12 @@ A curated selection of projects focused on clarity, usability, & aesthetic motio
 ⠀⠈⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+
+
+
+
+
 
 
 
