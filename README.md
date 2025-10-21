@@ -10,7 +10,7 @@
 
 ### ✦ About Me 
 
-Hi, I’m a **Web & UX/UI designer + Front-End Developer** who loves creating modern, experimental visuals. With knowledge of HTML/CSS & an eye for interactive experiences, I design interfaces that are functional & accessible yet immersive.  
+Hi, I’m a **Web & UX/UI designer + Front-End Developer** who loves creating modern, experimental visuals. With knowledge of HTML & CSS, plus an eye for interactive experiences, I design interfaces that are functional & accessible yet immersive.  
 
 “**TaaraNova**” was born from a fascination with supernovas — cosmic bursts of light that mark both an ending & the beginning of something entirely new.  
 Just like a star’s eruption creates the building blocks for new worlds, I see design as an ever-evolving process of transformation, experimentation, & renewal.  
