@@ -1,5 +1,5 @@
 <!-- TAARANOVA BY HARSHI GITHUB PROFILE README -->
-![TaaraNova By Harshi Brand Logo & Monogram Banner](https://raw.githubusercontent.com/TaaraNovaHarshi/TaaraNova-Logo/main/TaaraNova%20Brand%20Logo%20Banner.png)
+![TaaraNova By Harshi Brand Logo & Monogram Banner](https://raw.githubusercontent.com/TaaraNovaHarshi/TaaraNova-Logo/blob/main/TaaraNova%20Brand%20Logo%20Banner.png)
 <br><sup>⟡ ©2025 TaaraNova by Harshi. All rights reserved. ⟡</sup>
 
 ✦•······················•✦•······················•✦•······················•✦•······················•✦•······················•✦•······················•✦•······················•✦•······················•✦
