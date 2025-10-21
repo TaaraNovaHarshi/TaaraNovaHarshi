@@ -12,8 +12,7 @@
 
 Hi, I’m a **Web & UX/UI designer + Front-End Developer** who loves creating modern, experimental visuals. With knowledge of HTML & CSS, plus an eye for interactive experiences, I design interfaces that are functional & accessible yet immersive.  
 
-“**TaaraNova**” was born from a fascination with supernovas — cosmic bursts of light that mark both an ending & the beginning of something entirely new.  
-Just like a star’s eruption creates the building blocks for new worlds, I see design as an ever-evolving process of transformation, experimentation, & renewal.  
+“**TaaraNova**” was born from a fascination with supernovas — cosmic bursts of light that mark both an ending & the beginning of something entirely new. Just like a star’s eruption creates the building blocks for new worlds, I see design as an ever-evolving process of transformation, experimentation, & renewal.  
 
 The name plays on *terra nova* (“new world”) & *supernova*, but with **taara** (तारा/تارا) — the Hindi/Urdu word for “star” — at its core, becoming “new star.” It reflects my cultural roots, curiosity for the unknown, & drive to create work that feels both luminous & grounded. Like the starburst behind the name, my career is just beginning — but I’m always pushing into bigger, brighter territory.  
 
