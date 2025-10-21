@@ -1,5 +1,6 @@
 <!-- TAARANOVA BY HARSHI GITHUB PROFILE README -->
-![TaaraNova By Harshi](https://raw.githubusercontent.com/TaaraNovaHarshi/TaaraNova-Logo/main/TaaraNova%20Brand%20Logo%20Banner.png)
+![TaaraNova By Harshi Brand Logo & Monogram Banner](https://raw.githubusercontent.com/TaaraNovaHarshi/TaaraNova-Logo/main/TaaraNova%20Brand%20Logo%20Banner.png)
+<br><sup>⟡ ©2025 TaaraNova by Harshi. All rights reserved. ⟡</sup>
 
 ✦•······················•✦•······················•✦•······················•✦•······················•✦•······················•✦•······················•✦•······················•✦•······················•✦
 
@@ -8,7 +9,7 @@
 
 ✦•······················•✦•······················•✦•······················•✦•······················•✦•······················•✦•······················•✦•······················•✦•······················•✦
 
-### ✦ About Me 
+### ✦ About Me
 
 Hi, I’m a **Web & UX/UI designer + Front-End Developer** who loves creating modern, experimental visuals. With knowledge of HTML & CSS, plus an eye for interactive experiences, I design interfaces that are functional & accessible yet immersive.  
 
