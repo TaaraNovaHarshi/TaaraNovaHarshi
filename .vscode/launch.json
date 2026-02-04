@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Chrome (Live Preview)",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "url": "http://127.0.0.1:3000/index.html",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
