@@ -91,10 +91,10 @@
         <a href="#webdev">Web Design</a>
         <a href="#uxui">UX / UI</a>
         <a href="#contact">Contact</a>
-        <a id="profile-link" href="http://www.linkedin.com/in/harshi-v" target="_blank">LinkedIn</a>
-        <a id="profile-link" href="https://github.com/TaaraNovaHarshi" target="_blank">GitHub</a>
+        <a class="profile-link" href="http://www.linkedin.com/in/harshi-v" target="_blank">LinkedIn</a>
+        <a class="profile-link" href="https://github.com/TaaraNovaHarshi" target="_blank">GitHub</a>
         <label class="theme-toggle">
-          <input type="checkbox" id="theme-checkbox">
+          <input type="checkbox" class="theme-checkbox">
           <span class="switch">
             <span class="icon sun">✴</span>
             <span class="icon moon">⏾</span>
@@ -102,17 +102,17 @@
         </label>
       </nav>
 
-      <!-- Mobile menu checkbox + styled ⟡ as hamburger -->
-      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label">
+      <!-- Mobile menu button -->
+      <button class="nav-toggle-label" type="button" aria-controls="mobile-nav" aria-expanded="false"
+        aria-label="Open navigation menu">
         <span class="tri tri1">⟡</span>
         <span class="tri tri2">⟡</span>
         <span class="tri tri3">⟡</span>
-      </label>
+      </button>
 
       <!-- Mobile nav -->
-      <label for="nav-toggle" class="nav-overlay"></label>
-      <nav class="mobile-nav">
+      <button class="nav-overlay" type="button" aria-label="Close navigation menu" tabindex="-1"></button>
+      <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" aria-hidden="true" inert>
         <a href="#about">About</a>
         <a href="#webdev">Web Design</a>
         <a href="#uxui">UX / UI</a>
@@ -120,7 +120,7 @@
         <a href="http://www.linkedin.com/in/harshi-v" target="_blank">LinkedIn</a>
         <a href="https://github.com/TaaraNovaHarshi" target="_blank">GitHub</a>
         <label class="theme-toggle">
-          <input type="checkbox" id="theme-checkbox">
+          <input type="checkbox" class="theme-checkbox">
           <span class="switch">
             <span class="icon sun">✴</span>
             <span class="icon moon">⏾</span>
@@ -148,9 +148,9 @@
         <aside class="hero-left glass chrome-card chrome-animated">
           <h2 class="gold">HARSHI VUSKAMURI</h2>
           <p class="muted">UX/UI Design Engineer & Product-Focused Front-End Engineer</p>
-          <p class="brand-desc">TAARANOVA — a name born from the Hindi/Urdu word for star "taara" (तारा/تارا) + a play
+          <!--<p class="brand-desc">TAARANOVA — a name born from the Hindi/Urdu word for star "taara" (तारा/تارا) + a play
             on the terms "terra nova" & "supernova", that focuses on design that is modern & creating evolving
-            experiences that feel both futuristic & otherworldly.</p>
+            experiences that feel both futuristic & otherworldly.</p>-->
           <!-- Rotating Monogram Logo -->
           <div class="logo-rot">
             <!-- Monogram Logo -->
@@ -539,9 +539,65 @@
     </footer>
   </main>
   <script>
-    document.querySelectorAll('.mobile-nav a, .nav-overlay').forEach(el =>
-      el.addEventListener('click', () => document.getElementById('nav-toggle').checked = false)
-    );
+    (function () {
+      const toggle = document.querySelector('.nav-toggle-label');
+      const drawer = document.querySelector('.mobile-nav');
+      const overlay = document.querySelector('.nav-overlay');
+      const focusableSelector = 'a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])';
+      let previousFocus = null;
+
+      if (!toggle || !drawer || !overlay) return;
+
+      function setMenu(open) {
+        document.body.classList.toggle('nav-open', open);
+        toggle.setAttribute('aria-expanded', String(open));
+        toggle.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+        drawer.setAttribute('aria-hidden', String(!open));
+        drawer.inert = !open;
+
+        if (open) {
+          previousFocus = document.activeElement;
+          const firstFocusable = drawer.querySelector(focusableSelector);
+          if (firstFocusable) firstFocusable.focus();
+        } else if (previousFocus) {
+          previousFocus.focus();
+        }
+      }
+
+      toggle.addEventListener('click', () => setMenu(!document.body.classList.contains('nav-open')));
+      overlay.addEventListener('click', () => setMenu(false));
+      drawer.querySelectorAll('a').forEach(link => link.addEventListener('click', () => setMenu(false)));
+
+      document.addEventListener('keydown', event => {
+        if (!document.body.classList.contains('nav-open')) return;
+        if (event.key === 'Escape') {
+          setMenu(false);
+          return;
+        }
+        if (event.key !== 'Tab') return;
+
+        const focusable = Array.from(drawer.querySelectorAll(focusableSelector));
+        if (!focusable.length) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+
+        if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          first.focus();
+        }
+      });
+
+      document.querySelectorAll('.theme-checkbox').forEach(checkbox => {
+        checkbox.addEventListener('change', () => {
+          document.querySelectorAll('.theme-checkbox').forEach(other => {
+            if (other !== checkbox) other.checked = checkbox.checked;
+          });
+        });
+      });
+    })();
   </script>
   <script>
     // Contact form -> open user's email client using mailto: with encoded subject/body
