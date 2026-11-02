@@ -1,4 +1,5 @@
 <!-- TAARANOVA BY HARSHI GITHUB PROFILE README -->
+
 ![TaaraNova By Harshi Brand Logo & Monogram Banner](https://github.com/TaaraNovaHarshi/TaaraNova-Logo/blob/main/TaaraNova%20Brand%20Logo%20%26%20Monogram%20Banner.png)
 <br><sup>©2025 TaaraNova by Harshi. All rights reserved.</sup>
 
@@ -11,44 +12,46 @@
 
 ### ✦ About Me
 
-Hi, I’m a **UX/UI Design Engineer & Product-Focused Front-End Engineer** who loves creating modern, experimental visuals. With knowledge of HTML & CSS, plus an eye for interactive experiences, I design interfaces that are functional & accessible yet immersive.  
+Hi, I’m a **UX/UI Design Engineer & Product-Focused Front-End Engineer** who loves creating modern, experimental visuals. With knowledge of HTML & CSS, plus an eye for interactive experiences, I design interfaces that are functional & accessible yet immersive.
 
-“**TaaraNova**” was born from a fascination with supernovas — cosmic bursts of light that mark both an ending & the beginning of something entirely new. Just like a star’s eruption creates the building blocks for new worlds, I see design as an ever-evolving process of transformation, experimentation, & renewal.  
+“**TaaraNova**” was born from a fascination with supernovas — cosmic bursts of light that mark both an ending & the beginning of something entirely new. Just like a star’s eruption creates the building blocks for new worlds, I see design as an ever-evolving process of transformation, experimentation, & renewal.
 
-The name plays on *terra nova* (“new world”) & *supernova*, but with **taara** (तारा/تارا) — the Hindi/Urdu word for “star” — at its core, becoming “new star.” It reflects my cultural roots, curiosity for the unknown, & drive to create work that feels both luminous & grounded. Like the starburst behind the name, my designs are rooted in creating new innovative & intuitive experiences.
+The name plays on _terra nova_ (“new world”) & _supernova_, but with **taara** (तारा/تارا) — the Hindi/Urdu word for “star” — at its core, becoming “new star.” It reflects my cultural roots, curiosity for the unknown, & drive to create work that feels both luminous & grounded. Like the starburst behind the name, my designs are rooted in creating new innovative & intuitive experiences.
 
 ∘₊✦─────────────────────────────────────────────────────────────────────────────✦₊∘
 
 ### ✦ Skills / Stack
 
-- **Languages:** HTML5 ✦ CSS3  
+- **Languages:** HTML5 ✦ CSS3 ✦ JavaScript ✦ Java ✦ Python
 - **Frameworks:** Tailwind CSS
 - **Design Tools:** Figma ✦ Adobe XD ⟡ Adobe InDesign ✦ Adobe Illustrator ✦ Adobe Dreamweaver ✦ Adobe Photoshop ✦ Canva ✦ Capcut ✦ Vimeo
-- **Website Design Tools:** Wix ✦ WordPress ✦ Webflow ✦ Framer ✦ Squarespace 
-- **Other Tools:** Git ✦ GitHub ✦ VS Code ✦ Chrome Dev Tools ✦ PyCharm ✦ Google Workspace ✦ Microsoft Office Suite
+- **Website Design Tools:** Wix ✦ WordPress ✦ Webflow ✦ Framer ✦ Squarespace
+- **Other Tools:** Git ✦ GitHub ✦ VS Code ✦ Chrome Dev Tools ✦ PyCharm ✦ Google Workspace ✦ Microsoft Office Suite ✦ SEMrush
 
 ∘₊✦─────────────────────────────────────────────────────────────────────────────✦₊∘
 
-### ✦ Certifications 
+### ✦ Certifications
 
-- ✦ Springboard UX Design Curriculum (2025)
-- ✦ FutureLearn Digital Skills: User Experience (2025)
-- ✦ FreeCodeCamp Responsive Web Design Certification – In Progress (2026)
+- ✦ edX Verified Certificate for GTx's Introduction to Object-Oriented Programing with Java III: Exceptions, Data Structures, Recursion, and GUIs – In Progress (2026)
+- ✦ edX Verified Certificate for GTx's Introduction to Object-Oriented Programing with Java II: Object-Oriented Programming and Algorithms – (2026)
+- ✦ edX Verified Certificate for GTx's Introduction to Object-Oriented Programing with Java I: Foundations and Syntax Basics – (2026)
 - ✦ FreeCodeCamp Javascript Certficiation – In Progress (2026)
+- ✦ FreeCodeCamp Responsive Web Design Certification (2026)
 
 ∘₊✦─────────────────────────────────────────────────────────────────────────────✦₊∘
 
 ### ✦ Projects / Highlights
 
 A curated selection of projects focused on clarity, usability, & aesthetic motion — from experimental interfaces to brand-driven web experiences.
+
 - ✦ [**OID's Homepage Redesign Case Study**](https://taaranovaharshi.github.io/UX-UI-Case-Study---OID-Homepage-Redesign/) — UX/UI case study of Outer Image Delivery's Homepage Redesign
-- ✦ [**Interactive Landing Page**](https://taaranovaharshi.github.io/Interactive-Landing-Page/) — An interactive landing page made for FreeCodeCamp's Responsive Web Design Course.
+- ✦ [**OID's Website**](https://taaranovaharshi.github.io/Outer-Image-Delivery-Homepage-Redesign/) — A clickable prototype of Outer Image Delivery's consumer-facing website.
 
 ∘₊✦─────────────────────────────────────────────────────────────────────────────✦₊∘
 
 ### ✦ Currently Exploring
 
-- UI motion design systems ✦ CSS art & shader-based visual effects ✦ Advanced CSS motion 
+- UI motion design systems ✦ CSS art & shader-based visual effects ✦ Advanced CSS motion
 - WebGL particle animation ✦ React animation frameworks ✦ Expanding skills in React & modern JS
 - Accessibility-centered design strategies ✦ AI-assisted UX/UI design systems & frameworks
 
@@ -62,11 +65,13 @@ A curated selection of projects focused on clarity, usability, & aesthetic motio
 
 ### ✦ Contact Me
 
-- ✦ **Email:** taaranovaharshi@gmail.com (freelance) or okvuskamuri@gmail.com (regular inquiries) 
+- ✦ **Email:** taaranovaharshi@gmail.com
 - ✦ [**LinkedIn**](https://www.linkedin.com/in/harshi-v) (@harshi-v)
 - ✦ [**Portfolio**](https://taaranovaharshi.com)
 
-**Availability: Open to freelance & full-time roles in design engineering, web/UX/UI/product design, front-end development, front-end engineering, & product engineering + relocation (U.S. - in-person or remote/Global - remote only).** ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+**Availability: Open to freelance & full-time roles in design engineering, web/UX/UI/product/game design/dev, front-end development, front-end engineering, & product engineering + relocation (U.S. - in-person or remote/Global - remote only).** ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢨⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -89,14 +94,6 @@ A curated selection of projects focused on clarity, usability, & aesthetic motio
 ⠘⣇⠂⢀⣀⣀⠤⠞⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠈⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀
 
-
-
-
-
-
-
-
-
-
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀

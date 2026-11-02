@@ -18,6 +18,7 @@
 
   <!-- NAVBAR -->
   <header id="navbar" class="nav chrome-navbar chrome-animated">
+    <div class="nav-progress" aria-hidden="true"></div>
     <div class="nav-inner">
       <!-- Monogram / Wordmark -->
       <a class="brand" href="#welcome-section" aria-label="TaaraNova by Harshi">
@@ -36,7 +37,7 @@
           <path d="M52 10 Q58 42 90 50 Q58 58 50 98 Q42 58 10 50 Q42 42 50 1z" stroke="url(#goldStroke)" fill="none"
             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
 
-          <!-- TN letters: T stem is shared with N (exact structure you supplied) -->
+          <!-- TN letters: T stem is shared with N -->
           <g transform="translate(34,30) scale(0.4)" fill="none" stroke="var(--gold)" stroke-width="5.5"
             stroke-linecap="round" stroke-linejoin="round" style="vector-effect: non-scaling-stroke;">
             <!-- T top bar -->
@@ -87,18 +88,19 @@
 
       <!-- Desktop nav links -->
       <nav class="nav-links">
-        <a href="#about">About</a>
-        <a href="#webdev">Web Design</a>
+        <a href="#about" data-modal-open="about">About</a>
         <a href="#uxui">UX / UI</a>
+        <a href="#webdev">Web Design</a>
         <a href="#contact">Contact</a>
+        <a href="HV_UX-UI_Engr_Resume.pdf" target="_blank">Resume</a>
         <a class="profile-link" href="http://www.linkedin.com/in/harshi-v" target="_blank">LinkedIn</a>
         <a class="profile-link" href="https://github.com/TaaraNovaHarshi" target="_blank">GitHub</a>
-        <label class="theme-toggle">
+        <!-- <label class="theme-toggle">
           <input type="checkbox" class="theme-checkbox">
           <span class="switch">
             <span class="icon sun">✴</span>
             <span class="icon moon">⏾</span>
-          </span>
+          </span> -->
         </label>
       </nav>
 
@@ -113,19 +115,20 @@
       <!-- Mobile nav -->
       <button class="nav-overlay" type="button" aria-label="Close navigation menu" tabindex="-1"></button>
       <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" aria-hidden="true" inert>
-        <a href="#about">About</a>
-        <a href="#webdev">Web Design</a>
+        <a href="#about" data-modal-open="about">About</a>
         <a href="#uxui">UX / UI</a>
+        <a href="#webdev">Web Design</a>
         <a href="#contact">Contact</a>
+        <a href="HV_UX-UI_DE_Resume.pdf" target="_blank">Resume</a>
         <a href="http://www.linkedin.com/in/harshi-v" target="_blank">LinkedIn</a>
         <a href="https://github.com/TaaraNovaHarshi" target="_blank">GitHub</a>
-        <label class="theme-toggle">
+        <!-- <label class="theme-toggle">
           <input type="checkbox" class="theme-checkbox">
           <span class="switch">
             <span class="icon sun">✴</span>
             <span class="icon moon">⏾</span>
           </span>
-        </label>
+        </label> -->
       </nav>
     </div>
   </header>
@@ -144,6 +147,7 @@
         <div class="glow"></div>
       </div>
       <div class="hero-inner">
+        <div class="stars" aria-hidden="true"></div>
         <!-- Left vertical glass bar -->
         <aside class="hero-left glass chrome-card chrome-animated">
           <h2 class="gold">HARSHI VUSKAMURI</h2>
@@ -179,48 +183,50 @@
 
         <!-- Center / Main headline -->
         <div class="hero-center">
-          <h1 class="wordmark">
-            <div class="wordmark">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 200" width="1180" height="200">
-                <defs>
-                  <linearGradient id="goldStroke" x1="0" y1="0" x2="1" y2="1">
-                    <stop offset="0%" stop-color="#ffd87a" />
-                    <stop offset="40%" stop-color="#f2b33f" />
-                    <stop offset="65%" stop-color="#eba103" />
-                    <stop offset="100%" stop-color="#b36f02" />
-                  </linearGradient>
-                </defs>
-                <g fill="none" stroke="url(#goldStroke)" stroke-width="3.5" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <!-- T -->
-                  <path d="M10 10 H60 M35 10 V90" />
-                  <!-- Λ -->
-                  <path d="M75 90 L100 10 L125 90" />
-                  <!-- second Λ -->
-                  <path d="M140 90 L165 10 L190 90" />
-                  <!-- R -->
-                  <path d="M205 10 V90 M205 10 H240 Q260 10 260 35 Q260 60 240 60 H205 M240 60 L265 90" />
-                  <!-- third Λ -->
-                  <path d="M280 90 L305 10 L330 90" />
-                  <!-- N -->
-                  <path d="M345 90 V10 L385 90 V10" />
-                  <!-- ♢ plain diamond O -->
-                  <!-- <path d="M400 50 L425 90 L450 50 L425 10 Z"/>-->
-                  <!-- ⟡ stylized diamond O -->
-                  <g transform="translate(382,0)">
-                    <path d="M52 10 Q58 42 90 48 Q58 58 50 98 Q42 58 10 48 Q42 42 50 1z" />
+          <div class="hero-brand-line">
+            <h1 class="wordmark">
+              <div class="wordmark">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 200" width="1180" height="200">
+                  <defs>
+                    <linearGradient id="goldStroke" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="#ffd87a" />
+                      <stop offset="40%" stop-color="#f2b33f" />
+                      <stop offset="65%" stop-color="#eba103" />
+                      <stop offset="100%" stop-color="#b36f02" />
+                    </linearGradient>
+                  </defs>
+                  <g fill="none" stroke="url(#goldStroke)" stroke-width="3.5" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <!-- T -->
+                    <path d="M10 10 H60 M35 10 V90" />
+                    <!-- Λ -->
+                    <path d="M75 90 L100 10 L125 90" />
+                    <!-- second Λ -->
+                    <path d="M140 90 L165 10 L190 90" />
+                    <!-- R -->
+                    <path d="M205 10 V90 M205 10 H240 Q260 10 260 35 Q260 60 240 60 H205 M240 60 L265 90" />
+                    <!-- third Λ -->
+                    <path d="M280 90 L305 10 L330 90" />
+                    <!-- N -->
+                    <path d="M345 90 V10 L385 90 V10" />
+                    <!-- ♢ plain diamond O -->
+                    <!-- <path d="M400 50 L425 90 L450 50 L425 10 Z"/>-->
+                    <!-- ⟡ stylized diamond O -->
+                    <g transform="translate(382,0)">
+                      <path d="M52 10 Q58 42 90 48 Q58 58 50 98 Q42 58 10 48 Q42 42 50 1z" />
+                    </g>
+                    <!-- V -->
+                    <path d="M470 10 L490 90 L510 10" />
+                    <!-- final Λ -->
+                    <path d="M525 90 550 10 L575 90" />
                   </g>
-                  <!-- V -->
-                  <path d="M470 10 L490 90 L510 10" />
-                  <!-- final Λ -->
-                  <path d="M525 90 550 10 L575 90" />
-                </g>
-              </svg>
-            </div>
-            <!--<span class="byline">TΛΛRAN♢VΛ</span>-->
-            <!--<span class="devanagari">तारा</span><span class="byline">N♢VA</span>-->
-          </h1>
-          <small class="by">BY HARSHI</small>
+                </svg>
+              </div>
+              <!--<span class="byline">TΛΛRAN♢VΛ</span>-->
+              <!--<span class="devanagari">तारा</span><span class="byline">N♢VA</span>-->
+            </h1>
+            <small class="by">BY HARSHI</small>
+          </div>
           <!--<p class="hero-sub">Designing luminous, interactive experiences — accessible, modern, & technically strong.</p>-->
 
           <div class="hero-cta">
@@ -230,82 +236,106 @@
         </div>
       </div>
       <div class="hero-wrap" aria-hidden="true">
-        <svg class="supernova-svg" viewBox="250 -7 100 100" xmlns="http://www.w3.org/2000/svg" role="img"
+        <!--<svg class="supernova-svg" viewBox="250 -7 100 100" xmlns="http://www.w3.org/2000/svg" role="img"
           aria-label="Supernova animation">
-          <defs>
-            <!-- gold radial used in star -->
-            <radialGradient id="goldGrad" cx="50%" cy="45%" r="60%">
-              <stop offset="0%" stop-color="#fff9e6" />
-              <stop offset="35%" stop-color="#ffd54d" />
-              <stop offset="100%" stop-color="#ffb300" />
-            </radialGradient>
-            <!-- halo gradient -->
-            <radialGradient id="haloGrad" cx="50%" cy="50%" r="60%">
-              <stop offset="0%" stop-color="rgba(255,255,220,0.85)" />
-              <stop offset="35%" stop-color="rgba(255,200,110,0.45)" />
-              <stop offset="70%" stop-color="rgba(255,140,50,0.18)" />
-              <stop offset="100%" stop-color="rgba(255,120,20,0)" />
-            </radialGradient>
-            <!-- colorful nebula (linear used and rotated via group rotation) -->
-            <linearGradient id="nebulaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stop-color="#ff8a3d" stop-opacity="0.42" />
-              <stop offset="25%" stop-color="#ffd27a" stop-opacity="0.36" />
-              <stop offset="50%" stop-color="#9b6bff" stop-opacity="0.28" />
-              <stop offset="75%" stop-color="#3fd0ff" stop-opacity="0.28" />
-              <stop offset="100%" stop-color="#ff8a3d" stop-opacity="0.42" />
-            </linearGradient>
-            <!-- soft blur filter for glow -->
-            <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
-              <feGaussianBlur stdDeviation="18" result="b" />
-              <feMerge>
-                <feMergeNode in="b" />
-                <feMergeNode in="SourceGraphic" />
-              </feMerge>
-            </filter>
-            <!-- core bright blur -->
-            <filter id="coreGlow" x="-50%" y="-50%" width="200%" height="200%">
-              <feGaussianBlur stdDeviation="3" result="c" />
-              <feMerge>
-                <feMergeNode in="c" />
-                <feMergeNode in="SourceGraphic" />
-              </feMerge>
-            </filter>
-          </defs>
-          <!-- huge rotating nebula glow -->
-          <g class="glowGroup" transform-origin="50% 50%">
-            <circle cx="50" cy="50" r="40" fill="url(#nebulaGrad)" filter="url(#softBlur)" opacity="0.0" />
-            <!-- layered second ring for color depth -->
-            <circle cx="50" cy="50" r="56" fill="url(#nebulaGrad)" filter="url(#softBlur)" opacity="0.0" />
+          <defs> -->
+        <!-- gold radial used in star -->
+        <radialGradient id="goldGrad" cx="50%" cy="45%" r="60%">
+          <stop offset="0%" stop-color="#fff9e6" />
+          <stop offset="35%" stop-color="#ffd54d" />
+          <stop offset="100%" stop-color="#ffb300" />
+        </radialGradient>
+        <!-- halo gradient -->
+        <radialGradient id="haloGrad" cx="50%" cy="50%" r="60%">
+          <stop offset="0%" stop-color="rgba(255,255,220,0.85)" />
+          <stop offset="35%" stop-color="rgba(255,200,110,0.45)" />
+          <stop offset="70%" stop-color="rgba(255,140,50,0.18)" />
+          <stop offset="100%" stop-color="rgba(255,120,20,0)" />
+        </radialGradient>
+        <!-- colorful nebula (linear used and rotated via group rotation) -->
+        <linearGradient id="nebulaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#ff8a3d" stop-opacity="0.42" />
+          <stop offset="25%" stop-color="#ffd27a" stop-opacity="0.36" />
+          <stop offset="50%" stop-color="#9b6bff" stop-opacity="0.28" />
+          <stop offset="75%" stop-color="#3fd0ff" stop-opacity="0.28" />
+          <stop offset="100%" stop-color="#ff8a3d" stop-opacity="0.42" />
+        </linearGradient>
+        <!-- soft blur filter for glow -->
+        <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="18" result="b" />
+          <feMerge>
+            <feMergeNode in="b" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+        <!-- core bright blur -->
+        <filter id="coreGlow" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="c" />
+          <feMerge>
+            <feMergeNode in="c" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+        </defs>
+        <!-- huge rotating nebula glow -->
+        <g class="glowGroup" transform-origin="50% 50%">
+          <circle cx="50" cy="50" r="40" fill="url(#nebulaGrad)" filter="url(#softBlur)" opacity="0.0" />
+          <!-- layered second ring for color depth -->
+          <circle cx="50" cy="50" r="56" fill="url(#nebulaGrad)" filter="url(#softBlur)" opacity="0.0" />
+        </g>
+        <!-- halo / oblong reflective shape with wings left/right -->
+        <g class="haloGroup" transform-origin="50% 50%">
+          <!-- oblong center -->
+          <ellipse cx="50" cy="50" rx="28" ry="17" fill="url(#haloGrad)" opacity="0" />
+          <!-- left wing (protruding line) -->
+          <g class="wings" transform-origin="50% 50%">
+            <rect class="wing left" x="6" y="48.5" width="22" height="3.5" rx="1.75" fill="url(#goldGrad)" opacity="0"
+              transform="rotate(-4 17 50)" />
+            <!-- right wing -->
+            <rect class="wing right" x="72" y="48.5" width="22" height="3.5" rx="1.75" fill="url(#goldGrad)" opacity="0"
+              transform="rotate(4 83 50)" />
           </g>
-          <!-- halo / oblong reflective shape with wings left/right -->
-          <g class="haloGroup" transform-origin="50% 50%">
-            <!-- oblong center -->
-            <ellipse cx="50" cy="50" rx="28" ry="17" fill="url(#haloGrad)" opacity="0" />
-            <!-- left wing (protruding line) -->
-            <g class="wings" transform-origin="50% 50%">
-              <rect class="wing left" x="6" y="48.5" width="22" height="3.5" rx="1.75" fill="url(#goldGrad)" opacity="0"
-                transform="rotate(-4 17 50)" />
-              <!-- right wing -->
-              <rect class="wing right" x="72" y="48.5" width="22" height="3.5" rx="1.75" fill="url(#goldGrad)"
-                opacity="0" transform="rotate(4 83 50)" />
-            </g>
-          </g>
-          <!-- star logo -->
-          <g class="starGroup" transform-origin="50% 50%">
-            <path class="logo-star" d="M50 10 Q58 42 90 50 Q58 58 50 90 Q42 58 10 50 Q42 42 50 10z"
-              fill="url(#goldGrad)" stroke="rgba(255,215,0,0.9)" stroke-width="0.0" filter="url(#coreGlow)"
-              opacity="1" />
-          </g>
-          <!-- tiny white-hot core flash -->
-          <g class="coreGroup">
-            <circle cx="50" cy="50" r="3.6" fill="#ffffff" opacity="0.0" filter="url(#coreGlow)" />
-          </g>
+        </g>
+        <!-- star logo -->
+        <g class="starGroup" transform-origin="50% 50%">
+          <path class="logo-star" d="M50 10 Q58 42 90 50 Q58 58 50 90 Q42 58 10 50 Q42 42 50 10z" fill="url(#goldGrad)"
+            stroke="rgba(255,215,0,0.9)" stroke-width="0.0" filter="url(#coreGlow)" opacity="1" />
+        </g>
+        <!-- tiny white-hot core flash -->
+        <g class="coreGroup">
+          <circle cx="50" cy="50" r="3.6" fill="#ffffff" opacity="0.0" filter="url(#coreGlow)" />
+        </g>
         </svg>
       </div>
     </section>
 
-    <!-- ABOUT -->
-    <section id="about" class="section about glass-section">
+    <!-- ABOUT MODAL -->
+    <div id="about" class="about-modal" role="dialog" aria-modal="true" aria-labelledby="about-title" aria-hidden="true"
+      inert>
+      <div class="about-modal-overlay" data-modal-close></div>
+      <div class="about-modal-panel glass chrome-card" role="document">
+        <div class="about-cosmic" aria-hidden="true">
+          <div class="glow"></div>
+          <div class="halo"></div>
+          <div class="supernova"></div>
+        </div>
+        <button class="about-modal-close" type="button" aria-label="Close about modal" data-modal-close>X</button>
+        <div class="about-modal-content">
+          <h2 id="about-title" class="section-title gold">ABOUT</h2>
+          <p>I'm a UX/UI design engineer and front-end engineer who loves creating modern, experimental visuals. With
+            knowledge of HTML/CSS/JS and an eye for interactive experiences, I design interfaces that are functional and
+            accessible yet immersive with playful touches like glassmorphism, dynamic gradients, and subtle motion.</p>
+          <p>TaaraNova was born from a fascination with supernovas, cosmic bursts of light that mark both an ending and
+            the beginning of something entirely new. Just like a star's eruption creates the building blocks for new
+            worlds, I see design as an ever-evolving process of transformation, experimentation, and renewal. The name
+            also plays on terra nova and supernova, but with taara, the Hindi/Urdu word for star, at its core.</p>
+          <p><a class="glass btn chrome-btn" href="HV_UX-UI_DE_Resume.pdf" target="_blank">Resume</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT CONTENT ARCHIVE -->
+    <section id="about-content" class="section about glass-section" hidden>
       <div class="container">
         <h2 class="section-title gold">ABOUT</h2>
         <p>“TaaraNova” was born from a fascination with supernovas — cosmic bursts of light that mark both an ending &
@@ -394,12 +424,24 @@
     <section id="webdev" class="section projects">
       <div class="container">
         <h2 class="section-title gold">WEB DESIGN & FRONT- END DEVELOPMENT</h2>
-        <p class="muted">Check out my web design & coding projects here. Projects are grouped by language/type.</p>
+        <p class="muted">Check out my web design & coding projects here.</p>
 
         <div class="carousel-wrap">
           <!-- Individual project tiles -->
 
           <article class="project-tile glass chrome-card">
+            <div class="nebula"></div>
+            <div class="project-content">
+              <h3>Outer Image Delivery's (OID) Website</h3>
+              <p>Prototype of Outer Image Delivery's Consumer-Facing Site</p>
+              <!-- <div class="project-links">
+                <a href="https://taaranovaharshi.github.io/Outer-Image-Delivery-Homepage-Redesign/"
+                  target="_blank">Live</a>
+              </div> -->
+            </div>
+          </article>
+
+          <!-- <article class="project-tile glass chrome-card">
             <div class="nebula"></div>
             <div class="project-content">
               <h3>Interactive Landing Page</h3>
@@ -409,9 +451,9 @@
                 <a href="https://github.com/TaaraNovaHarshi/Interactive-Landing-Page" target="_blank">Code</a>
               </div>
             </div>
-          </article>
+          </article> -->
 
-          <article class="project-tile glass chrome-card">
+          <!-- <article class="project-tile glass chrome-card">
             <div class="nebula"></div>
             <div class="project-content">
               <h3>Mock Portfolio</h3>
@@ -421,9 +463,9 @@
                 <a href="https://github.com/TaaraNovaHarshi/Mock-Portfolio" target="_blank">Code</a>
               </div>
             </div>
-          </article>
+          </article> -->
 
-          <article class="project-tile glass chrome-card">
+          <!-- <article class="project-tile glass chrome-card">
             <div class="nebula"></div>
             <div class="project-content">
               <h3>Tribute Page</h3>
@@ -431,51 +473,6 @@
               <div class="project-links">
                 <a href="https://taaranovaharshi.github.io/Tribute-Page/" target="_blank">Live</a>
                 <a href="https://github.com/TaaraNovaHarshi/Tribute-Page" target="_blank">Code</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Mid-tier & mini project cards consolidated -->
-          <article class="project-tile glass chrome-card">
-            <div class="nebula"></div>
-            <div class="project-content">
-              <h3>General Projects (overview)</h3>
-              <p>City Skyline, Python Technical Documentation Page, & Responsive Survey Form</p>
-              <div class="project-links">
-                <a href="https://taaranovaharshi.github.io/City-Skyline/" target="_blank">Live</a>
-                <a href="https://github.com/TaaraNovaHarshi/City-Skyline" target="_blank">Code</a>
-              </div>
-              <div class="project-links">
-                <a href="https://taaranovaharshi.github.io/Technical-Documentation-Page/" target="_blank">Live</a>
-                <a href="https://github.com/TaaraNovaHarshi/Technical-Documentation-Page" target="_blank">Code</a>
-              </div>
-              <div class="project-links">
-                <a href="https://taaranovaharshi.github.io/Responsive-Survey-Form/" target="_blank">Live</a>
-                <a href="https://github.com/TaaraNovaHarshi/Responsive-Survey-Form" target="_blank">Code</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- <article class="project-tile glass chrome-card">
-            <div class="nebula"></div>
-            <div class="project-content">
-              <h3>Javascript Mini Projects (collection)</h3>
-              <p>Small Javascript projects bundled here.</p>
-              <div class="project-links">
-                <a href="#" target="_blank">Live</a>
-                <a href="#" target="_blank">Code</a>
-              </div>
-            </div>
-          </article> -->
-
-          <!-- <article class="project-tile glass chrome-card">
-            <div class="nebula"></div>
-            <div class="project-content">
-              <h3>Python & Machine Learning Mini Projects (collection)</h3>
-              <p>Small Python & Machine Learning projects bundled here.</p>
-              <div class="project-links">
-                <a href="#" target="_blank">Live</a>
-                <a href="#" target="_blank">Code</a>
               </div>
             </div>
           </article> -->
